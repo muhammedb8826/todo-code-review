@@ -126,11 +126,11 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- you can see the project live [using this link](https://muhammedb8826.github.io/todo-list-app/dist/)
+- you can see the project live [using this link](https://muhammedb8826.github.io/todo-code-review/dist/)
 
 > Link to github repository.
 
-- [To-Do list app](https://github.com/muhammedb8826/todo-list-app)
+- [To-Do list app](https://github.com/muhammedb8826/todo-code-review)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +140,7 @@ After you're finished please remove all the comments and instructions!
 
 To get a local copy up and running, follow these steps.
 
-git clone https://github.com/muhammedb8826/todo-list-app.git
+git clone https://github.com/muhammedb8826/todo-code-review.git
 
 ### Prerequisites
 
@@ -155,7 +155,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/muhammedb8826/todo-list-app.git
+git clone https://github.com/muhammedb8826/todo-code-review.git
 
 cd todo-list-app
 
@@ -217,7 +217,7 @@ run:    ```
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/muhammedb8826/todo-list-app/issues).
+Feel free to check the [issues page](https://github.com/muhammedb8826/todo-code-review/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
