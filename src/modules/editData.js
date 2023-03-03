@@ -1,7 +1,7 @@
 import saveToLocalStorage from './saveToDb.js';
 
-const refreshIcon = document.querySelector('.refresh-icon');
 const editData = (dataArray) => {
+  const refreshIcon = document.querySelector('.refresh-icon');
   refreshIcon.addEventListener('click', () => {
     window.location.reload();
   });
@@ -20,13 +20,13 @@ const editData = (dataArray) => {
     dragIcon[item].style.display = 'none';
     todoContent[item].focus();
     todoContent[item].style.cursor = 'text';
-    for (let i = 0; i < todoLists.length; i += 1) {
+    todoLists.forEach((todoItem, i) => {
       if (item !== i) {
-        todoLists[i].classList.remove('active');
+        todoItem.classList.remove('active');
         trashIcon[i].style.display = 'none';
         dragIcon[i].style.display = 'block';
       }
-    }
+    });
   }));
 
   todoContent.forEach((todo, i) => todo.addEventListener('keypress', (e) => {
